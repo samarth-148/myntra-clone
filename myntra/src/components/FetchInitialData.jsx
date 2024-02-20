@@ -16,7 +16,7 @@ const FetchInitialData = () => {
     const signal = controller.signal;
     if (isFetched === false) {
       dispatch(fetchStatusActions.isCurrentlyFetching());
-      fetch("http://localhost:8080/items", { signal })
+      fetch("https://myntra-clone-backend-665f.onrender.com/items", { signal })
         .then((res) => res.json())
         .then(({ items }) => {
           dispatch(itemsActions.addInitials(items[0]));
