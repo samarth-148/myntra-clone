@@ -1,6 +1,6 @@
 # **myntra-clone**
 
-Link of the clone: [https://myntra-clone-by-samarth.netlify.app/](https://myntra-clone-by-samarth.netlify.app/)
+Link of the clone: [https://myntra-shopping-app-clone.netlify.app/](https://myntra-shopping-app-clone.netlify.app/)
 
 ## Technologies Used
 
