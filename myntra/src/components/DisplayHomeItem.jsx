@@ -6,7 +6,6 @@ const DisplayHomeItem = ({ item }) => {
   const dispatch = useDispatch();
   const idOfitemsInbag = useSelector((state) => state.bagItems);
   const isItemFound = idOfitemsInbag.includes(item.id);
-  console.log(isItemFound);
   const handleAddTobag = () => {
     dispatch(bagItemsActions.addToBag(item.id));
   };
